@@ -1,0 +1,231 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* banner start  */
+
+    .banner {
+        padding: 80px 0;
+    }
+
+    .banner-content {
+        padding: 40px 20px;
+        max-width: 100%;
+    }
+
+    .banner-content h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .banner-content p {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    /* banner end  */
+
+
+    /* card start  */
+
+    .card {
+        padding: 80px 20px;
+        background-color: #0d110c;
+    }
+
+    .single-card {
+        padding: 30px 10px;
+    }
+
+    .single-card h2 {
+        font-size: 22px;
+    }
+
+    .single-card h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .single-card h3 {
+        font-size: 16px;
+    }
+
+    .card-btn-wrapper .nav-btn {
+        width: 100% !important;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    /* card end  */
+    .dis-div {
+        padding: 20px 10px;
+        background-color: #000;
+    }
+
+    /* Cookie start  */
+
+    .cookie-alert {
+        width: 300px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    /* Cookie end  */
+
+    /* Disclaimer Page start  */
+
+    .disclaimer-sec {
+        padding: 60px 0;
+    }
+
+    .disclaimer-wrapper {
+        padding: 30px 20px;
+    }
+
+    .disclaimer-wrapper h1 {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    /* Disclaimer Page end  */
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* banner start  */
+
+    .banner {
+        padding: 100px 0;
+    }
+
+    .banner-content {
+        padding: 40px 20px;
+        max-width: 90%;
+    }
+
+    .banner-content h1 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .banner-content p {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    /* banner end  */
+
+    /* card start  */
+
+    .card {
+        padding: 100px 0;
+        background-color: #0d110c;
+    }
+
+    .single-card {
+        padding: 30px 10px;
+    }
+
+    .single-card h2 {
+        font-size: 22px;
+    }
+
+    .single-card h4 {
+        font-size: 14px;
+    }
+
+    .single-card h3 {
+        font-size: 16px;
+    }
+
+    .card-btn-wrapper .nav-btn {
+        width: 100% !important;
+        font-size: 14px;
+    }
+
+    /* card end  */
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* banner start  */
+
+    .banner {
+        padding: 100px 0;
+    }
+
+    .banner-content {
+        padding: 40px 20px;
+        max-width: 90%;
+    }
+
+    .banner-content h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .banner-content p {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    /* banner end  */
+
+    /* card start  */
+
+    .card {
+        padding: 100px 0;
+        background-color: #0d110c;
+    }
+
+    .single-card {
+        padding: 30px 0px;
+    }
+
+    .single-card h2 {
+        font-size: 20px;
+    }
+
+    .single-card h4 {
+        font-size: 14px;
+    }
+
+    .single-card h3 {
+        font-size: 16px;
+    }
+
+    .card-btn-wrapper .nav-btn {
+        width: 100% !important;
+        font-size: 14px;
+    }
+
+    /* card end  */
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* card start  */
+
+    .card-btn-wrapper .nav-btn {
+        width: 100% !important;
+        font-size: 14px;
+    }
+
+
+    /* card end  */
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}

@@ -1,0 +1,334 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* header start  */
+
+header {
+    padding: 10px 0;
+    background-color: #5a6d54;
+}
+
+.nav-link {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #33412e !important;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #33412e;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: #fff;
+    color: #33412e;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/hamburger-menu.png);
+}
+
+/* header end  */
+
+/* banner start  */
+
+.banner {
+    padding: 150px 0;
+    background-image: linear-gradient(to bottom, #00000083, #00000083),
+        url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    padding: 40px 30px;
+    background-color: #000000d7;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-content h1 {
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    color: #87aa7d;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* banner end  */
+
+/* card start  */
+
+.card-section {
+    padding: 100px 0;
+    background-color: #0d110c;
+}
+
+.single-card {
+    background-color: #ebebeb;
+    margin: 15px 0;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px #747474;
+    border-radius: 10px;
+}
+
+.single-card h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 20px;
+}
+
+.single-card h4 {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+}
+
+.single-card h3 {
+    font-weight: 700;
+    color: #87aa7d;
+    font-size: 18px;
+}
+
+.single-card p {
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.single-card ul li {
+    color: #fff;
+    font-size: 14px;
+    text-align: start !important;
+}
+
+.single-card ul li i {
+    color: #87aa7d;
+}
+
+.single-card span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.single-card span i {
+    color: #87aa7d;
+}
+
+.card-btn-wrapper {
+    padding: 25px 10px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.card-btn-wrapper .nav-btn {
+    width: 90% !important;
+}
+
+/* card end  */
+
+/* .short-disclaimer start  */
+
+.short-disclaimer {
+    background-color: #0D110C;
+    padding: 0px 0 40px 0;
+}
+
+.short-disclaimer p {
+    font-size: 13px;
+    color: #ddd;
+}
+
+.dis-div{
+    padding: 40px;
+    background-color: #000;
+}
+
+/* .short-disclaimer end  */
+
+/* footer start  */
+
+footer {
+    background-color: #5A6D54;
+    padding: 30px 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.copyright-text {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* footer end  */
+
+/* contact start  */
+
+.contact {
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.contact h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    color: #87aa7d;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.contact p {
+    font-weight: 500;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.contact h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+}
+
+.contact ul li {
+    font-weight: 500;
+    color: #ddd;
+    font-size: 16px;
+}
+
+/* contact end  */
+
+/* Cookie start  */
+
+.cookie-alert {
+    background-color: #2e2e2e;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 360px;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+}
+
+.cookie-alert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.cookie-alert h5 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.cookie-alert p {
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Cookie end  */
+
+/* Disclaimer Page start  */
+
+.disclaimer-sec {
+    padding: 100px 0;
+    background-image: linear-gradient(to bottom, #00000083, #00000083),
+        url(../images/disclaimer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.legal-notice {
+    background-image: linear-gradient(to bottom, #00000083, #00000083),
+        url(../images/legal-notice-bg.jpg);
+}
+
+.privacy-policy {
+    background-image: linear-gradient(to bottom, #00000083, #00000083),
+        url(../images/privacy-policy-bg.jpg);
+}
+
+
+.disclaimer-wrapper {
+    padding: 50px 40px;
+    background-color: #000000a2;
+}
+
+.disclaimer-wrapper h1 {
+    font-family: "Oswald", sans-serif;
+    color: #87aa7d;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.disclaimer-wrapper p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.disclaimer-wrapper h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.disclaimer-wrapper li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Disclaimer Page end  */
