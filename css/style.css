@@ -54,7 +54,7 @@ header {
 .banner {
     padding: 150px 0;
     background-image: linear-gradient(to bottom, #00000083, #00000083),
-        url(../images/banner.jpg);
+        url(../images/bannernuovo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -333,3 +333,4 @@ footer ul li a {
 
 
 /* Disclaimer Page end  */
+
